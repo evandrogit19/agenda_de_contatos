@@ -32,7 +32,7 @@ thead {
 header {
     display: flex;
     align-items: center;
-    padding-inline: 18rem;
+    padding-inline: 1rem;
     margin-bottom: 2rem;
     border-radius: 8px;
 }
@@ -140,4 +140,24 @@ tfoot {
     background-color: var(--table-primary-color);
     color: var(--bg-secondary-color);
     padding: auto;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+h1 {
+    width: 100%;
 }
